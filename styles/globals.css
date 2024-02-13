@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    background-color:#101314;
+    @apply bg-zinc-900;
+  }
+}
